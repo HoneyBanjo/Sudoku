@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>testi 2</title>
+
+        <link rel="stylesheet" href="testi3tyyli.css">
+
+
+    </head>
+
+    <body>
+
+        <div id="startbox">
+            <header id="head">
+                <h1>Sudoku</h1>
+            </header>
+
+            <div id="openGame">
+                <h2> Empty Board </h2>
+            </div>
+
+
+        </div>
+
+        <div id="Easybox">
+                <h1> Easy </h1>
+        </div>
+
+        <div id="Mediumbox">
+                <h1> Medium </h1>
+        </div>
+
+
+        <div id="Hardbox">
+            <h1> Hard </h1>
+        </div>
+
+        <div id="Timerbox" style=display:none>
+            <p> Time time time </p>
+        </div>
+
+        <span id="minutes"></span>:<span id="seconds"></span>
+
+        <div id="ilmobox" style= display:none>
+            <h2 id="ilmotukset">
+                Good Luck!
+            </h2>
+        </div>
+
+
+        <div id="GameBoard" style= display:none>
+
+            <div id="A" class="rivi">
+                <div id="AA1" class="ruutu">
+                    <p id="A1">&nbsp;</p>
+                </div>
+                <div id="BB1" class="ruutu">
+                    <p id="B1"> &nbsp;</p>
+                </div>
+                <div id="CC1" class="ruutu">
+                    <p id="C1">&nbsp;</p>
+                </div>
+                <div id="DD1" class="ruutu">
+                    <p id="D1">&nbsp;</p>
+                </div>
+                <div id="EE1" class="ruutu">
+                    <p id="E1">&nbsp;</p>
+                </div>
+                <div id="FF1" class="ruutu">
+                    <p id="F1">&nbsp;</p>
+                </div>
+                <div id="GG1" class="ruutu">
+                    <p id="G1">&nbsp;</p>
+                </div>
+                <div id="HH1" class="ruutu">
+                    <p id="H1">&nbsp;</p>
+                </div>
+                <div id="II1" class="ruutu">
+                    <p id="I1">&nbsp;</p>
+                </div>
+                <div id="testiA" class="check" class="ruutu">
+                    <p id="J1">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="B" class="rivi">
+                <div id="AA2" class="ruutu">
+                    <p id="A2">&nbsp;</p>
+                </div>
+                <div id="BB2" class="ruutu">
+                    <p id="B2">&nbsp;</p>
+                </div>
+                <div id="CC2" class="ruutu">
+                    <p id="C2">&nbsp;</p>
+                </div>
+                <div id="DD2" class="ruutu">
+                    <p id="D2">&nbsp;</p>
+                </div>
+                <div id="EE2" class="ruutu">
+                    <p id="E2">&nbsp;</p>
+                </div>
+                <div id="FF2" class="ruutu">
+                    <p id="F2">&nbsp;</p>
+                </div>
+                <div id="GG2" class="ruutu">
+                    <p id="G2">&nbsp;</p>
+                </div>
+                <div id="HH2" class="ruutu">
+                    <p id="H2">&nbsp;</p>
+                </div>
+                <div id="II2" class="ruutu">
+                    <p id="I2">&nbsp;</p>
+                </div>
+                <div id="testiB" class="check" class="ruutu">
+                    <p id="J2">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="C" class="rivi">
+                <div id="AA3" class="ruutu">
+                    <p id="A3">&nbsp;</p>
+                </div>
+                <div id="BB3" class="ruutu">
+                    <p id="B3">&nbsp;</p>
+                </div>
+                <div id="CC3" class="ruutu">
+                    <p id="C3">&nbsp;</p>
+                </div>
+                <div id="DD3" class="ruutu">
+                    <p id="D3">&nbsp;</p>
+                </div>
+                <div id="EE3" class="ruutu">
+                    <p id="E3">&nbsp;</p>
+                </div>
+                <div id="FF3" class="ruutu">
+                    <p id="F3">&nbsp;</p>
+                </div>
+                <div id="GG3" class="ruutu">
+                    <p id="G3">&nbsp;</p>
+                </div>
+                <div id="HH3" class="ruutu">
+                    <p id="H3">&nbsp;</p>
+                </div>
+                <div id="II3" class="ruutu">
+                    <p id="I3">&nbsp;</p>
+                </div>
+                <div id="testiC"class="check" class="ruutu">
+                    <p id="J3">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="D" class="rivi">
+                <div id="AA4" class="ruutu">
+                    <p id="A4">&nbsp;</p>
+                </div>
+                <div id="BB4" class="ruutu">
+                    <p id="B4">&nbsp;</p>
+                </div>
+                <div id="CC4" class="ruutu">
+                    <p id="C4">&nbsp;</p>
+                </div>
+                <div id="DD4" class="ruutu">
+                    <p id="D4">&nbsp;</p>
+                </div>
+                <div id="EE4" class="ruutu">
+                    <p id="E4">&nbsp;</p>
+                </div>
+                <div id="FF4" class="ruutu">
+                    <p id="F4">&nbsp;</p>
+                </div>
+                <div id="GG4" class="ruutu">
+                    <p id="G4">&nbsp;</p>
+                </div>
+                <div id="HH4" class="ruutu">
+                    <p id="H4">&nbsp;</p>
+                </div>
+                <div id="II4" class="ruutu">
+                    <p id="I4">&nbsp;</p>
+                </div>
+                <div id="testiD" class="check" class="ruutu">
+                    <p id="J4">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="E" class="rivi">
+                <div id="AA5" class="ruutu">
+                    <p id="A5">&nbsp;</p>
+                </div>
+                <div id="BB5" class="ruutu">
+                    <p id="B5">&nbsp;</p>
+                </div>
+                <div id="CC5" class="ruutu">
+                    <p id="C5">&nbsp;</p>
+                </div>
+                <div id="DD5" class="ruutu">
+                    <p id="D5">&nbsp;</p>
+                </div>
+                <div id="EE5" class="ruutu">
+                    <p id="E5">&nbsp;</p>
+                </div>
+                <div id="FF5" class="ruutu">
+                    <p id="F5">&nbsp;</p>
+                </div>
+                <div id="GG5" class="ruutu">
+                    <p id="G5">&nbsp;</p>
+                </div>
+                <div id="HH5" class="ruutu">
+                    <p id="H5">&nbsp;</p>
+                </div>
+                <div id="II5" class="ruutu">
+                    <p id="I5">&nbsp;</p>
+                </div>
+                <div id="testiE" class="check" class="ruutu">
+                    <p id="J5">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="F" class="rivi">
+                <div id="AA6" class="ruutu">
+                    <p id="A6">&nbsp;</p>
+                </div>
+                <div id="BB6" class="ruutu">
+                    <p id="B6">&nbsp;</p>
+                </div>
+                <div id="CC6" class="ruutu">
+                    <p id="C6">&nbsp;</p>
+                </div>
+                <div id="DD6" class="ruutu">
+                    <p id="D6">&nbsp;</p>
+                </div>
+                <div id="EE6" class="ruutu">
+                    <p id="E6">&nbsp;</p>
+                </div>
+                <div id="FF6" class="ruutu">
+                    <p id="F6">&nbsp;</p>
+                </div>
+                <div id="GG6" class="ruutu">
+                    <p id="G6">&nbsp;</p>
+                </div>
+                <div id="HH6" class="ruutu">
+                    <p id="H6">&nbsp;</p>
+                </div>
+                <div id="II6" class="ruutu">
+                    <p id="I6">&nbsp;</p>
+                </div>
+                <div id="testiF" class="check" class="ruutu">
+                    <p id="J6">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="G" class="rivi">
+                <div id="AA7" class="ruutu">
+                    <p id="A7">&nbsp;</p>
+                </div>
+                <div id="BB7" class="ruutu">
+                    <p id="B7">&nbsp;</p>
+                </div>
+                <div id="CC7" class="ruutu">
+                    <p id="C7">&nbsp;</p>
+                </div>
+                <div id="DD7" class="ruutu">
+                    <p id="D7">&nbsp;</p>
+                </div>
+                <div id="EE7" class="ruutu">
+                    <p id="E7">&nbsp;</p>
+                </div>
+                <div id="FF7" class="ruutu">
+                    <p id="F7">&nbsp;</p>
+                </div>
+                <div id="GG7" class="ruutu">
+                    <p id="G7">&nbsp;</p>
+                </div>
+                <div id="HH7" class="ruutu">
+                    <p id="H7">&nbsp;</p>
+                </div>
+                <div id="II7" class="ruutu">
+                    <p id="I7">&nbsp;</p>
+                </div>
+                <div ID="testiG" class="check" class="ruutu">
+                    <p id="J7">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="H" class="rivi">
+                <div id="AA8" class="ruutu">
+                    <p id="A8">&nbsp;</p>
+                </div>
+                <div id="BB8" class="ruutu">
+                    <p id="B8">&nbsp;</p>
+                </div>
+                <div id="CC8" class="ruutu">
+                    <p id="C8">&nbsp;</p>
+                </div>
+                <div id="DD8" class="ruutu">
+                    <p id="D8">&nbsp;</p>
+                </div>
+                <div id="EE8" class="ruutu">
+                    <p id="E8">&nbsp;</p>
+                </div>
+                <div id="FF8" class="ruutu">
+                    <p id="F8">&nbsp;</p>
+                </div>
+                <div id="GG8" class="ruutu">
+                    <p id="G8">&nbsp;</p>
+                </div>
+                <div id="HH8" class="ruutu">
+                    <p id="H8">&nbsp;</p>
+                </div>
+                <div id="II8" class="ruutu">
+                    <p id="I8">&nbsp;</p>
+                </div>
+                <div id="testiH" class="check" class="ruutu">
+                    <p id="J8">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="I" class="rivi">
+                <div id="AA9" class="ruutu">
+                    <p id="A9">&nbsp;</p>
+                </div>
+                <div id="BB9" class="ruutu">
+                    <p id="B9">&nbsp;</p>
+                </div>
+                <div id="CC9" class="ruutu">
+                    <p id="C9">&nbsp;</p>
+                </div>
+                <div id="DD9" class="ruutu">
+                    <p id="D9">&nbsp;</p>
+                </div>
+                <div id="EE9" class="ruutu">
+                    <p id="E9">&nbsp;</p>
+                </div>
+                <div id="FF9" class="ruutu">
+                    <p id="F9">&nbsp;</p>
+                </div>
+                <div id="GG9" class="ruutu">
+                    <p id="G9">&nbsp;</p>
+                </div>
+                <div id="HH9" class="ruutu">
+                    <p id="H9">&nbsp;</p>
+                </div>
+                <div id="II9" class="ruutu">
+                    <p id="I9">&nbsp;</p>
+                </div>
+                <div id="testiI" class="check" class="ruutu">
+                    <p id="J9">&nbsp;</p>
+                </div>
+            </div>
+
+            <div id="J" class="rivi">
+                <div id="testiAA" class="check" class="ruutu">
+                    <p id="A0">&nbsp;</p>
+                </div>
+                <div id="testiBB" class="check" class="ruutu">
+                    <p id="B0">&nbsp;</p>
+                </div>
+                <div id="testiCC" class="check" class="ruutu">
+                    <p id="C0">&nbsp;</p>
+                </div>
+                <div id="testiDD" class="check" class="ruutu">
+                    <p id="D0">&nbsp;</p>
+                </div>
+                <div id="testiEE" class="check" class="ruutu">
+                    <p id="E0">&nbsp;</p>
+                </div>
+                <div id="testiFF" class="check" class="ruutu">
+                    <p id="F0">&nbsp;</p>
+                </div>
+                <div id="testiGG" class="check" class="ruutu">
+                    <p id="G0">&nbsp;</p>
+                </div>
+                <div id="testiHH" class="check" class="ruutu">
+                    <p id="H0">&nbsp;</p>
+                </div>
+                <div id="testiII" class="check" class="ruutu">
+                    <p id="I0">&nbsp;</p>
+                </div>
+                <div id="testiJJ" class="check" class="check" class="ruutu">
+                    <p id="J0">&nbsp;</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+    <script src="testi3skripti.js"></script>
+    </body>
+
+</html>

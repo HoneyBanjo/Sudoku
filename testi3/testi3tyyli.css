@@ -1,0 +1,657 @@
+body {
+    background-color: rgb(204, 204, 204);
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 600px;
+
+}
+
+#startbox {
+    width: 200px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#head {
+    font-size: large;
+    color: black;
+    margin: 50px;
+}
+
+#openGame {
+    background-color: rgb(68, 80, 123);
+    text-align: center;
+    border-radius: 30%;
+    padding: 3px;
+}
+
+#GameBoard {
+    background-color: white;
+}
+
+
+
+.ruutu {
+    width:50px;
+    height:50px;
+    background-color: yellow;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.check {
+    width:50px;
+    height:50px;
+    background-color: red;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+#ilmobox {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+#Easybox {
+    height: 40px;
+    width: 400px;
+    margin:10px;
+    text-align: center;
+
+}
+
+#Mediumbox {
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+h1 {
+    background-color: rgb(48, 138, 68);
+    border-radius: 30%;
+    margin: 8px 100px 8px 100px;
+}
+
+#AA1 {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB1 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#CC1 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#DD1 {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE1{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#FF1{
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#GG1{
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH1{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+
+}
+
+#II1{
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#testiA{
+    border-right-width: 1px;
+}
+
+
+
+#AA2 {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB2 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#CC2 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+
+}
+
+#DD2{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE2{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#FF2{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#GG2{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH2{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#II2{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#testiB{
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+
+
+
+#AA3 {
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB3 {
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#CC3 {
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#DD3{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE3{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#FF3{
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#GG3{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH3{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#II3{
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#testiC{
+    border-left-width: 1px;
+}
+
+
+#AA4 {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB4 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#CC4 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#DD4 {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE4{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#FF4{
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#GG4{
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH4{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+
+}
+
+#II4{
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#testiD{
+    border-right-width: 1px;
+}
+
+
+#AA5 {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB5 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#CC5 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+
+}
+
+#DD5{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE5{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#FF5{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#GG5{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH5{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#II5{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#testiE{
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+
+#AA6 {
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB6 {
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#CC6 {
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#DD6{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE6{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#FF6{
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#GG6{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH6{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#II6{
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#testiF{
+    border-left-width: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#AA7 {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB7 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#CC7 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#DD7 {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE7{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#FF7{
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#GG7{
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH7{
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+
+}
+
+#II7{
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#testiG{
+    border-right-width: 1px;
+}
+
+
+#AA8 {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB8 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#CC8 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+
+}
+
+#DD8{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE8{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#FF8{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#GG8{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH8{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#II8{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#testiH{
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+
+#AA9 {
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#BB9 {
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#CC9 {
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#DD9{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#EE9{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#FF9{
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#GG9{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#HH9{
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+#II9{
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+#testiI{
+    border-left-width: 1px;
+}
+
+
+
+
+
+
+
+#testiAA {
+    border-bottom-width: 1px;
+}
+
+#testiBB {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#testiCC {
+    border-top-width: 1px;
+}
+
+#testiDD {
+    border-bottom-width: 1px;
+}
+
+#testiEE {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#testiFF {
+    border-top-width: 1px;
+}
+
+#testiGG {
+    border-bottom-width: 1px;
+}
+
+#testiHH {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#testiII {
+    border-top-width: 1px;
+}

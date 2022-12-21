@@ -1,0 +1,26 @@
+1	2	3	4	5	6	7	8	9
+ax	ay	az	ap	ao	at	ar	au	al
+bx	by	bz	bp	bo	bt	br	bu	bl
+cx	cy	cz	cp	co	ct	cr	cu	cl
+dx	dy	dz	dp	do	dt	dr	du	dl
+ex	ey	ez	ep	eo	et	er	eu	el
+fx	fy	fz	fp	fo	ft	fr	fu	fl
+gx	gy	gz	gp	go	gt	gr	gu	gl
+hx	hy	hz	hp	ho	ht	hr	hu	hl
+ix	iy	iz	ip	io	it	ir	iu	il
+jx	jy	jz	jp	jo	jt	jr	ju	jl
+
+
+
+Tee voittoseuraus
+
+--> Ilmotustaululle tulee "VOITIT!", kun kaikki on menny oikein
+
+Laita voittoseuraukseen aikaleima?
+
+How to put a time counter on a html page.
+
+Ongelma:
+
+Tarvii olioohjelmointiymmärrystä. Objekti on null niin siihen ei voi asettaa arvoa.
+

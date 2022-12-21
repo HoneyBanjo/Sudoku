@@ -1,0 +1,39 @@
+Tavoite: peli joka auttaa kertaamaan settejä.
+
+
+1+2+3+4+5+6+7+8+9 = 45
+
+Sudoku.
+
+
+Logiikka. Jos lukujonon summa on 45, se on oikein.
+
+
+eli jos:
+ruutu x
++
+ruutu x
++
+ruutu x
++
+ruutu x
++
+ruutu x
++
+ruutu x
++
+ruutu x
++
+ruutu x
++
+ruutu x
+
+
+Käskyjä:
+
+parseInt()
+
+
+
+ax on stringi joka tulee näkyviin.
+a1x on metavalue, joka laskee lopulta hommat yhteen.
